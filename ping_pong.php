@@ -38,7 +38,12 @@ class PingPongGenerator {
           $input_number = $_GET['number'];
           $my_PingPongGenerator = new PingPongGenerator;
           $results = $my_PingPongGenerator->generatePingPongArray($input_number);
-          var_dump($results);
+
+
+          foreach($results as $key => $value)
+          {
+            echo "<li> $value </li>";
+          }
         ?>
     </ul>
 </body>
