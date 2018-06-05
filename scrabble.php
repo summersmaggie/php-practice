@@ -41,7 +41,7 @@ class ScrabbleConverter {
           $my_ScrabbleConverter = new ScrabbleConverter;
           $results = $my_ScrabbleConverter->scrabbleConvert($input_word);
 
-            echo " <p> Your scrabble score is $results! </p> ";
+          echo " <p> Your scrabble score is $results! </p> ";
         ?>
 </body>
 </html>
